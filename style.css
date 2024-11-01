@@ -70,9 +70,9 @@ footer a {
 /* Resposive */
 @media screen and (max-width: 340px) {
     .me-footer .copyright {
-        font-size: 13px;
+        font-size: 8px;
     }
     .me-footer .social-media i {
-        font-size: 13px;
+        font-size: 10px;
     }
 }
