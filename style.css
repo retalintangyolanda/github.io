@@ -1,0 +1,78 @@
+*,
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif !important;
+}
+
+#project {
+    background-color: #cacaca;
+}
+
+footer a {
+    text-decoration: none;
+    color: #000;
+}
+
+.card.about-card {
+    background-color: #f5f2f2;
+}
+
+.me-footer {
+    background-color: #E2E4E3;
+}
+
+.me-footer .social-media {
+    text-align: center;
+    padding-top: 2rem;
+    margin-bottom: 10px;
+}
+
+.me-footer .social-media i {
+    color: #000;
+    margin: 0px 5px;
+    border: 1px #000 solid;
+    padding: 2px 6px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.me-footer .copyright {
+    text-align: center;
+    font-size: 15px;
+}
+
+/* Animation */
+.me-footer .social-media i:hover {
+    color: #fff;
+    background-color: #000;
+    transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -ms-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+}
+
+.copyright p a:hover {
+    color: #004aad;
+    text-decoration: underline;
+    transition: 0.2s ease;
+    -webkit-transition: 0.2s ease;
+    -moz-transition: 0.2s ease;
+    -ms-transition: 0.2s ease;
+    -o-transition: 0.2s ease;
+}
+
+/* Resposive */
+@media screen and (max-width: 340px) {
+    .me-footer .copyright {
+        font-size: 13px;
+    }
+    .me-footer .social-media i {
+        font-size: 13px;
+    }
+}
