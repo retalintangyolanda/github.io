@@ -25,8 +25,8 @@ footer a {
 
 .me-footer .social-media {
     text-align: center;
-    padding-top: 2rem;
-    margin-bottom: 10px;
+    padding-top: 4rem;
+    margin-bottom: 5px;
 }
 
 .me-footer .social-media i {
@@ -34,6 +34,7 @@ footer a {
     margin: 0px 5px;
     border: 1px #000 solid;
     padding: 2px 6px;
+    font-size: 11px;
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -43,7 +44,7 @@ footer a {
 
 .me-footer .copyright {
     text-align: center;
-    font-size: 15px;
+    font-size: 13px;
 }
 
 /* Animation */
@@ -68,11 +69,20 @@ footer a {
 }
 
 /* Resposive */
-@media screen and (max-width: 340px) {
+@media screen and (max-width: 500px) {
     .me-footer .copyright {
         font-size: 8px;
     }
     .me-footer .social-media i {
         font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .me-footer .copyright {
+        font-size: 5px;
+    }
+    .me-footer .social-media i {
+        font-size: 7px;
     }
 }
